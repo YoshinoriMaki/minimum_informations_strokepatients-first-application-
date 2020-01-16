@@ -11,25 +11,25 @@
 |username|string|null: false|
 |birthday|string|null: false|
 |age|string|null: false|
-|sex|string|null: false|
+|sex|integer|null: false|
 
 ## informationsテーブル
 <!-- informationは1-1の関係をuserと有している-->
 |Column|Type|Options|
 |------|----|-------|
-|hypertension|tinyinf(1)|null: false|
-|medication-hypertension|text||
-|diabetes|tinyinf(1)|null: false|
-|medication-diabetes|text||
-|hyperlipidemia|tinyinf(1)|null: false|
-|medication-hyperlipidemia|text||
-|liver-malfunction|tinyinf(1)|null: false|
-|kidney-malfunction|tinyinf(1)|null: false|
-|intracranial-hemorrhage|tinyinf(1)|null: false|
-|usage-antithrombotic|tinyinf(1)|null: false|
-|residence|tinyinf(1)|null: false|
-|activity-outside|tinyinf(1)|null: false|
-|activity-inside|tinyinf(1)|null: false|
+|hypertension|integer|null: false|
+|medication_hypertension|text||
+|diabetes|integer|null: false|
+|medication_diabetes|text||
+|hyperlipidemia|integer|null: false|
+|medication_hyperlipidemia|text||
+|liver_malfunction|integer|null: false|
+|kidney_malfunction|integer|null: false|
+|intracranial_hemorrhage|integer|null: false|
+|usage_antithrombotic|integer|null: false|
+|residence|integer|null: false|
+|activity_outside|integer|null: false|
+|activity_inside|integer|null: false|
 
 
 This README would normally document whatever steps are necessary to get the
