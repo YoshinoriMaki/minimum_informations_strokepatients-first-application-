@@ -1,53 +1,35 @@
 # README
-# README
-<!-- chatspace機能
-　　　user(id email password nickname)
-     chatroom(id)
-     message(id text)
-     image(id) -->
+<!-- data registration機能
+　　　user(id name password birthday age sex)
+     informations(id) -->
 
 ## usersテーブル
-<!-- userは多-多の関係をchatroomと, １ー多の関係をmassageと, １ー多の関係をimageと持っている -->
+<!-- userは1-1の関係をinformationと有している-->
 |Column|Type|Options|
 |------|----|-------|
-|email|string|null: false|
 |password|string|null: false|
 |username|string|null: false|
-### Association
-- has_many :messages
-- has_many :groups, through: :users_groups
-- has_many :users_groups
+|birthday|string|null: false|
+|age|string|null: false|
+|sex|string|null: false|
 
-## groupsテーブル
-<!-- chatroomは多-多の関係をuserと, １ー多の関係をmassageともっている -->
+## informationsテーブル
+<!-- informationは1-1の関係をuserと有している-->
 |Column|Type|Options|
 |------|----|-------|
-|title|string|null: false|
-### Association
-- has_many :messages
-- has_many :users, through: :users_groups
-- has_many :users_groups
-
-## users_groupsテーブル
-|Column|Type|Options|
-|------|----|-------|
-|user|references|null: false, foreign_key: true|
-|group|references|null: false, foreign_key: true|
-### Association
-- belongs_to :user
-- belongs_to :group
-
-## messagesテーブル
-<!-- messageは １ー多の関係をuserと, １ー多の関係をchatroomと持っている -->
-|Column|Type|Options|
-|------|----|-------|
-|text|text||
-|image|text||
-|user|references|null: false, foreign_key: true|
-|group|references|null: false, foreign_key: true|
-### Association
-- belongs_to :user
-- belongs_to :group 
+|hypertension|tinyinf(1)|null: false|
+|medication-hypertension|text||
+|diabetes|tinyinf(1)|null: false|
+|medication-diabetes|text||
+|hyperlipidemia|tinyinf(1)|null: false|
+|medication-hyperlipidemia|text||
+|liver-malfunction|tinyinf(1)|null: false|
+|kidney-malfunction|tinyinf(1)|null: false|
+|intracranial-hemorrhage|tinyinf(1)|null: false|
+|usage-antithrombotic|tinyinf(1)|null: false|
+|residence|tinyinf(1)|null: false|
+|activity-outside|tinyinf(1)|null: false|
+|activity-inside|tinyinf(1)|null: false|
 
 
 This README would normally document whatever steps are necessary to get the
