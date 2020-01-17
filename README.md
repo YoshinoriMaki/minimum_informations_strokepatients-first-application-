@@ -17,6 +17,10 @@
 <!-- informationは1-1の関係をuserと有している-->
 |Column|Type|Options|
 |------|----|-------|
+|intracranial_hemorrhage|integer|null: false|
+|infraction_episodes|integer|null: false|
+|usage_antithrombotic|interger|null: false|
+|usage_antithrombotic|text||
 |hypertension|integer|null: false|
 |medication_hypertension|text||
 |diabetes|integer|null: false|
@@ -25,8 +29,6 @@
 |medication_hyperlipidemia|text||
 |liver_malfunction|integer|null: false|
 |kidney_malfunction|integer|null: false|
-|intracranial_hemorrhage|integer|null: false|
-|usage_antithrombotic|integer|null: false|
 |residence|integer|null: false|
 |activity_outside|integer|null: false|
 |activity_inside|integer|null: false|

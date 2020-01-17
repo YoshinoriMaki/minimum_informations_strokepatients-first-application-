@@ -13,6 +13,9 @@
 ActiveRecord::Schema.define(version: 2020_01_16_050353) do
 
   create_table "information", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
+    t.integer "intracranial_hemorrhage", null: false
+    t.integer "infraction_episodes", null: false
+    t.text "usage_antithrombotic"
     t.integer "hypertension", null: false
     t.text "medication_hypertension"
     t.integer "diabetes", null: false
@@ -21,8 +24,6 @@ ActiveRecord::Schema.define(version: 2020_01_16_050353) do
     t.text "medication_hyperlipidemia"
     t.integer "liver_malfunction", null: false
     t.integer "kidney_malfunction", null: false
-    t.integer "intracranial_hemorrhage", null: false
-    t.integer "usage_antithrombotic", null: false
     t.integer "residence", null: false
     t.integer "activity_outside", null: false
     t.integer "activity_inside", null: false

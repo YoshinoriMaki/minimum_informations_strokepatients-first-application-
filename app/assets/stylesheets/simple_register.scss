@@ -1,0 +1,224 @@
+.background {
+  width: 100vw;
+  height: 100%;
+  overflow: scroll;
+  background-color: blanchedalmond;
+ }
+   .showname {
+   font-size: 40px;
+   text-align: center;
+   padding-top: 20px;
+   }
+    
+ 
+   .announce {
+     text-align: center;
+     font-size: 30px;
+     padding: 10px 0px;
+     &__guide1 {
+     }
+     &__guide2 {
+     }
+   }   
+   .medical-history-title {
+     text-align: center;
+     font-size: 30px;
+     margin: 10px auto;
+   }
+ 
+   .medical-history { 
+     display: flex;
+     flex-flow: column;
+     justify-content: space-around;
+     text-align: center;
+ 
+     &__intracranial-hemorrhage {
+       padding: 8px 19px;
+       margin: 2em 20%;
+       color: #2c2c2f;
+       background: #cde4ff;
+       border-top: solid 5px #5989cf;
+       border-bottom: solid 5px #5989cf;
+       font-size: 20px;
+       width: 60%;
+       &__selection-box {
+         margin: 3px 0px;
+       }
+     }
+     
+     &__infraction-events {
+       padding: 8px 19px;
+       margin: 2em 15%;
+       color: #2c2c2f;
+       background: #cde4ff;
+       border-top: solid 5px #5989cf;
+       border-bottom: solid 5px #5989cf;
+       font-size: 20px;
+       width: 70%;
+       &__selection-box {
+         margin: 3px 0px;
+         
+       }
+       
+       &__antithrombotic {
+         padding: 8px 19px;
+         margin: 2em 0;
+         color: #2c2c2f;
+         background: #cde4ff;
+         border-top: solid 5px #5989cf;
+         border-bottom: solid 5px #5989cf;
+         font-size: 20px;
+ 
+         &__selection-box {
+           margin: 5px 0px;
+         }
+         &__usage {
+         }
+       }
+     }
+ 
+     &__hypertension {
+       padding: 8px 19px;
+       margin: 2em 20%;
+       color: #2c2c2f;
+       background: #cde4ff;
+       border-top: solid 5px #5989cf;
+       border-bottom: solid 5px #5989cf;
+       font-size: 20px;
+       width: 60%;
+ 
+       &__selection-box {
+         margin: 5px 0px;
+       }
+       &__medication {
+ 
+       }
+     }
+     
+     &__diabetes {
+       padding: 8px 19px;
+         margin: 2em 20%;
+         color: #2c2c2f;
+         background: #cde4ff;
+         border-top: solid 5px #5989cf;
+         border-bottom: solid 5px #5989cf;
+         font-size: 20px;
+         width: 60%;
+ 
+       &__selection-box {
+         margin: 5px 0px;
+       }
+       &__medication {
+ 
+       }
+     }
+     
+     &__hyperlipidemia {
+       padding: 8px 19px;
+       margin: 2em 20%;
+       color: #2c2c2f;
+       background: #cde4ff;
+       border-top: solid 5px #5989cf;
+       border-bottom: solid 5px #5989cf;
+       font-size: 20px;
+       width: 60%;
+ 
+       &__selection-box {
+         margin: 5px 0px;
+       }
+       &__medication {
+ 
+       }
+     }
+ 
+     &__kidney-malfunction {
+       padding: 8px 19px;
+       margin: 2em 20%;
+       color: #2c2c2f;
+       background: #cde4ff;
+       border-top: solid 5px #5989cf;
+       border-bottom: solid 5px #5989cf;
+       font-size: 20px;
+       width: 60%;
+ 
+ 
+       &__selection-box {
+         margin: 3px 0px;
+       }
+     }
+     
+     &__liver-malfunction {
+       padding: 8px 19px;
+       margin: 2em 20%;
+       color: #2c2c2f;
+       background: #cde4ff;
+       border-top: solid 5px #5989cf;
+       border-bottom: solid 5px #5989cf;
+       font-size: 20px;
+       width: 60%;
+ 
+ 
+       &__selection-box {
+         margin: 3px 0px;
+       }
+       }
+     }
+ 
+ 
+   .lifestyle-title {
+     text-align: center;
+     font-size: 30px;
+     margin: 10px auto;
+ 
+   }
+ 
+   .lifestyle {
+     display: flex;
+     flex-flow: column;
+     justify-content: space-around;
+     text-align: center;
+     
+     &__residence {
+       padding: 8px 19px;
+       margin: 2em 25%;
+       color: #2c2c2f;
+       background: #cde4ff;
+       border-top: solid 5px #5989cf;
+       border-bottom: solid 5px #5989cf;
+       font-size: 20px;
+       width: 50%;
+ 
+       &__selection-box {
+       }
+     }
+ 
+     &__activity-outside {
+       padding: 8px 19px;
+       margin: 2em 25%;
+       color: #2c2c2f;
+       background: #cde4ff;
+       border-top: solid 5px #5989cf;
+       border-bottom: solid 5px #5989cf;
+       font-size: 20px;
+       width: 50%;
+ 
+       &__selection-box {
+       }
+     }
+     
+     &__activity-inside {
+       padding: 8px 19px;
+       margin: 2em 25%;
+       color: #2c2c2f;
+       background: #cde4ff;
+       border-top: solid 5px #5989cf;
+       border-bottom: solid 5px #5989cf;
+       font-size: 20px;
+       width: 50%;
+ 
+       &__selection-box {
+       }
+     }
+   }
+ 
+ 
