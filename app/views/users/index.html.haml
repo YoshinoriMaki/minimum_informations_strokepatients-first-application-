@@ -18,9 +18,6 @@
     (パスワードを入力してください)
 
   .login-box__status
-    .login-box__status__first-time
-      初めての方（新規登録）
-      /sign-in botton 装飾
-    .login-box__status__registered-before
-      ２回目以降の方はこちら
-      /log-in botton 装飾
+    = link_to "＜初めての方（新規登録）＞", new_user_registratio_path(@user), method: :get, class: "login-box__status__first-time"
+    = link_to "＜２回目以降の方はこちら＞", show_user_path(@user), method: :new, class: "login-box__status__registered-before"
+     

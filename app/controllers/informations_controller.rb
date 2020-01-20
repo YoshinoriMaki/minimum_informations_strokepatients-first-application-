@@ -1,6 +1,7 @@
 class InformationsController < ApplicationController
 
   def index #今回は１人分のデータしか表示しないので必要ないかも
+    @informations = Information.all
   end
 
   def new
@@ -11,7 +12,7 @@ class InformationsController < ApplicationController
     @information = Information.new(post_params)
 
     if @information.save
-      redirect_to @information # saveしたらshow actionへ移動するように記載変更
+      redirect_to @information 
     else
       render 'new'
     end
@@ -32,7 +33,7 @@ class InformationsController < ApplicationController
     @information = Information.find([:id])
     information.destroy
 
-    redirect_to #top pageに移動するように設定する
+    # redirect_to new_user_path #top pageに移動するように設定する
   end
 
   def edit

@@ -3,14 +3,14 @@
     ＜登録されている情報です＞
     .registerd-informations__nomesesso
       .registerd-informations__nomesesso__nome
-        @information.nome さん
+        @user.username 性
       .registerd-informations__nomesesso__sesso
-        @information.sex 性
+        @user.sex 性
     .registerd-informations__etaanno
       .registerd-informations__etaanno__eta
-        @information.age 才
+        @user.age 才
       .registerd-informations__etaanno__anno
-        @information.birthday 
+        @user.birthday 
 
   .storia
     ＜既往歴情報＞
@@ -58,8 +58,7 @@
     .vita__casa
       屋内生活 @information.activity_inside
 
+    
   .modificare
-    .modificare__modificare1
-      ＜変更する＞
-    .modificare__modificare2
-      ＜削除する＞
+    = link_to "＜編集する＞", edit_information_path(@information), method: :edit, class: "modificare__modificare1"
+    = link_to "＜削除する＞", delete_information_path, method: :destroy, class: "modificare__modificare2"
