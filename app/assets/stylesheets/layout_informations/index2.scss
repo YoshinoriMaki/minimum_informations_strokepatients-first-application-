@@ -1,0 +1,278 @@
+.background{
+  width: 100vw;
+  height: 100%;
+  overflow: scroll;
+  background-color: blanchedalmond;
+}
+  .registerd-informations {
+   
+   font-size: 40px;
+   text-align: center;
+   padding-top: 20px;
+   padding: 8px 19px;
+   margin: 2em 20%;
+   color: #2c2c2f;
+   background: #cde4ff;
+   border-top: solid 5px #5989cf;
+   border-bottom: solid 5px #5989cf;
+    
+    &__nomesesso {
+      display: flex;
+      justify-content: center;
+      font-size: 30px;  
+      &__nome {    
+      }
+      &__sesso {
+      }
+    }
+    &__etaanno {
+      display: flex;
+      justify-content: center;
+      font-size: 30px;
+      &__eta {
+      }
+      &__anno {
+      }
+    }
+  }
+
+  .storia {
+    font: bold;
+    font-size: 35px;
+    text-align: center;
+    margin-top: 20px;
+   
+    &__gruppo1 {
+      padding: 8px 19px;
+      margin: 2em 20%;
+      color: #2c2c2f;
+      background: #cde4ff;
+      border-top: solid 5px #5989cf;
+      border-bottom: solid 5px #5989cf;
+      &__emoraggio {
+        padding: 8px 19px;
+       margin: 2em 20%;
+       color: #2c2c2f;
+       background: white;
+       border-top: solid 5px #5989cf;
+       border-bottom: solid 5px #5989cf;
+       font-size: 20px;
+       width: 60%;
+      }
+      &__embolo {
+        padding: 8px 19px;
+       margin: 2em 20%;
+       color: #2c2c2f;
+       background:  white;
+       border-top: solid 5px #5989cf;
+       border-bottom: solid 5px #5989cf;
+       font-size: 20px;
+       width: 60%;
+      }
+      &__anticoagulante1 {
+        padding: 8px 19px;
+       margin: 2em 20%;
+       color: #2c2c2f;
+       background:  white;
+       border-top: solid 5px #5989cf;
+       border-bottom: solid 5px #5989cf;
+       font-size: 20px;
+       width: 60%;
+      }
+      &__anticoagulante2 {
+        padding: 8px 19px;
+       margin: 2em 20%;
+       color: #2c2c2f;
+       background: white;
+       border-top: solid 5px #5989cf;
+       border-bottom: solid 5px #5989cf;
+       font-size: 20px;
+       width: 60%;
+      }
+    }
+
+    &__gruppo2 {
+      padding: 8px 19px;
+      margin: 2em 20%;
+      color: #2c2c2f;
+      background: #cde4ff;
+      border-top: solid 5px #5989cf;
+      border-bottom: solid 5px #5989cf;
+      &__hypertension {
+        padding: 8px 19px;
+       margin: 2em 20%;
+       color: #2c2c2f;
+       background:  white;
+       border-top: solid 5px #5989cf;
+       border-bottom: solid 5px #5989cf;
+       font-size: 20px;
+       width: 60%;
+      }
+      &__medication {
+        padding: 8px 19px;
+       margin: 2em 20%;
+       color: #2c2c2f;
+       background:  white;
+       border-top: solid 5px #5989cf;
+       border-bottom: solid 5px #5989cf;
+       font-size: 20px;
+       width: 60%;
+      }
+    }
+
+    &__gruppo3 {
+      padding: 8px 19px;
+      margin: 2em 20%;
+      color: #2c2c2f;
+      background: #cde4ff;
+      border-top: solid 5px #5989cf;
+      border-bottom: solid 5px #5989cf;
+      &__diabetes {
+        padding: 8px 19px;
+       margin: 2em 20%;
+       color: #2c2c2f;
+       background:  white;
+       border-top: solid 5px #5989cf;
+       border-bottom: solid 5px #5989cf;
+       font-size: 20px;
+       width: 60%;
+      }
+      &__medication {
+        padding: 8px 19px;
+       margin: 2em 20%;
+       color: #2c2c2f;
+       background:  white;
+       border-top: solid 5px #5989cf;
+       border-bottom: solid 5px #5989cf;
+       font-size: 20px;
+       width: 60%;
+      }
+    }
+
+    &__gruppo4 {
+      padding: 8px 19px;
+      margin: 2em 20%;
+      color: #2c2c2f;
+      background: #cde4ff;
+      border-top: solid 5px #5989cf;
+      border-bottom: solid 5px #5989cf;
+      &__hyperlipidemia {padding: 8px 19px;
+        margin: 2em 20%;
+        color: #2c2c2f;
+        background:  white;
+        border-top: solid 5px #5989cf;
+        border-bottom: solid 5px #5989cf;
+        font-size: 20px;
+        width: 60%;
+      }
+      &__medication {
+        padding: 8px 19px;
+       margin: 2em 20%;
+       color: #2c2c2f;
+       background:  white;
+       border-top: solid 5px #5989cf;
+       border-bottom: solid 5px #5989cf;
+       font-size: 20px;
+       width: 60%;
+      }
+    }
+
+    &__gruppo5 { 
+      padding: 8px 19px;
+      margin: 2em 20%;
+      color: #2c2c2f;
+      background: #cde4ff;
+      border-top: solid 5px #5989cf;
+      border-bottom: solid 5px #5989cf;
+      
+      &__kidney {
+        padding: 8px 19px;
+       margin: 2em 20%;
+       color: #2c2c2f;
+       background:  white;
+       border-top: solid 5px #5989cf;
+       border-bottom: solid 5px #5989cf;
+       font-size: 20px;
+       width: 60%;
+
+      }
+
+      &__liver {
+        padding: 8px 19px;
+       margin: 2em 20%;
+       color: #2c2c2f;
+       background:  white;
+       border-top: solid 5px #5989cf;
+       border-bottom: solid 5px #5989cf;
+       font-size: 20px;
+       width: 60%;
+      }
+    }    
+  }
+
+
+  .vita {
+    font-size: 35px;
+    text-align: center;
+    margin-top: 20px;
+    padding: 8px 19px;
+    margin: 2em 20%;
+    color: #2c2c2f;
+    background: #cde4ff;
+    border-top: solid 5px #5989cf;
+    border-bottom: solid 5px #5989cf;
+
+    &__residenza {
+      padding: 8px 19px;
+       margin: 2em 20%;
+       color: #2c2c2f;
+       background: white;
+       border-top: solid 5px #5989cf;
+       border-bottom: solid 5px #5989cf;
+       font-size: 20px;
+       width: 60%;
+    }
+
+    &__fuori {
+      padding: 8px 19px;
+       margin: 2em 20%;
+       color: #2c2c2f;
+       background: white;
+       border-top: solid 5px #5989cf;
+       border-bottom: solid 5px #5989cf;
+       font-size: 20px;
+       width: 60%;
+    }
+
+    &__casa {
+      padding: 8px 19px;
+       margin: 2em 20%;
+       color: #2c2c2f;
+       background: white;
+       border-top: solid 5px #5989cf;
+       border-bottom: solid 5px #5989cf;
+       font-size: 20px;
+       width: 60%;
+    }
+  }
+
+  .modificare {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    padding: 8px 19px;
+      margin: 2em 20%;
+      color: #2c2c2f;
+      background: #cde4ff;
+      border-top: solid 5px #5989cf;
+      border-bottom: solid 5px #5989cf;
+
+    &__modificare1:hover {
+      
+      
+
+    }
+    &__modificare2 {
+      display: inline-block;
+    }
+  }

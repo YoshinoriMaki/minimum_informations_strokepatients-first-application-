@@ -4,7 +4,7 @@ class CreateInformation < ActiveRecord::Migration[5.2]
       t.integer :intracranial_hemorrhage, null: false
       t.integer :infraction_episodes, null: false
       t.integer :usage_antithrombotic, null: false
-      t.text :usage_antithrombotic
+      t.text :usage_antithrombotic2
       t.integer  :hypertension, null: false
       t.text :medication_hypertension
       t.integer :diabetes, null: false

@@ -1,0 +1,65 @@
+.background
+  .registerd-informations
+    ＜登録されている情報です＞
+    .registerd-informations__nomesesso
+      .registerd-informations__nomesesso__nome
+        @information.nome さん
+      .registerd-informations__nomesesso__sesso
+        @information.sex 性
+    .registerd-informations__etaanno
+      .registerd-informations__etaanno__eta
+        @information.age 才
+      .registerd-informations__etaanno__anno
+        @information.birthday 
+
+  .storia
+    ＜既往歴情報＞
+    .storia__gruppo1
+      .storia__gruppo1__emoraggio
+        出血既往歴 @information.intracranial_hemorrhage
+      .storia__gruppo1__embolo
+        脳梗塞/心筋梗塞（狭心症） @information.infraction_episodes
+      .storia__gruppo1__anticoagulante1
+        抗血栓薬内服 @information.usage_antithrombotic
+      .storia__gruppo1__anticoagulante2
+        抗血栓薬内服 @information.usage_antithrombotic2
+
+    .storia__gruppo2
+      .storia__gruppo2__hypertension
+        高血圧 @information.hypertension
+      .storia__gruppo2__medication
+        内服 @information.medication_hypertension
+
+    .storia__gruppo3
+      .storia__gruppo3__diabetes
+        糖尿病 @information.diabetes
+      .storia__gruppo3__medication
+        内服 @information.medication_diabetes
+
+    .storia__gruppo4
+      .storia__gruppo4__hyperlipidemia
+        高脂血症 @information.hyperlipidemia
+      .storia__gruppo4__medication
+        内服 @information.medication_hyperlipidemia
+
+    .storia__gruppo5
+      .storia__gruppo5__kidney
+        腎機能障害 @information.kedney_malfunction
+
+      .storia__gruppo5__liver
+        肝機能障害 @information.liver_malfunction
+
+  .vita
+    ＜生活情報＞
+    .vita__residenza
+      生活環境 @information.residence
+    .vita__fuori
+      屋外生活 @information.activity_outside
+    .vita__casa
+      屋内生活 @information.activity_inside
+
+  .modificare
+    .modificare__modificare1
+      ＜変更する＞
+    .modificare__modificare2
+      ＜削除する＞
