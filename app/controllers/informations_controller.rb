@@ -9,45 +9,45 @@ class InformationsController < ApplicationController
   end
 
   def create
-    @information = Information.new(post_params)
+    @information = Information.new(information_params)
 
     if @information.save
       redirect_to @information 
     else
-      render 'new'
+      render :new
     end
   end
 
   def update
-    @information = Information.find([:id])
+    @information = Information.find(params[:id])
 
-    if @information.update(post_params)
+    if @information.update(information_params)
       redirect_to @information
     else
-      render 'edit'
+      render :edit
     end
 
   end
 
   def destroy
-    @information = Information.find([:id])
+    @information = Information.find(params[:id])
     information.destroy
 
     # redirect_to new_user_path #top pageに移動するように設定する
   end
 
   def edit
-    @information = Information.find([:id])
+    @information = Information.find(params[:id])
   end
 
   def show
-    @information = Information.find([:id])
+    @information = Information.find(params[:id])
   end
 
   private
 
-  def post_params
-   params.requires(:information).permit(:intracranial_hemorrhage, :infraction_episodes, :usage_antithrombotic, :usage_antithrombotic, :hypertension, :medication_hypertension, :diabetes, :medication_diabetes, :hyperlipidemia, :medication_hyperlipidemia, :liver_malfunction, :kidney_malfunction, :residence, :activity_outside, :activity_inside)
+  def information_params
+   params.require(:information).permit(:intracranial_hemorrhage, :infraction_episodes, :usage_antithrombotic, :usage_antithrombotic, :hypertension, :medication_hypertension, :diabetes, :medication_diabetes, :hyperlipidemia, :medication_hyperlipidemia, :liver_malfunction, :kidney_malfunction, :residence, :activity_outside, :activity_inside)
   end
   
 end

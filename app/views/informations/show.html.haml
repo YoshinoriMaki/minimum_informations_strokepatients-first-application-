@@ -22,7 +22,7 @@
       .storia__gruppo1__anticoagulante1
         抗血栓薬内服 @information.usage_antithrombotic
       .storia__gruppo1__anticoagulante2
-        抗血栓薬内服 @information.usage_antithrombotic2
+        抗血栓薬内服 @information.usage_antithrombotic
 
     .storia__gruppo2
       .storia__gruppo2__hypertension
@@ -60,5 +60,5 @@
 
     
   .modificare
-    = link_to "＜編集する＞", edit_information_path(@information), method: :edit, class: "modificare__modificare1"
-    = link_to "＜削除する＞", delete_information_path, method: :destroy, class: "modificare__modificare2"
+    = link_to "＜編集する＞", edit_information_path, method: :get, class: "modificare__modificare1"
+    = link_to "＜削除する＞", delete_information_path, method: :delete, class: "modificare__modificare2"

@@ -1,8 +1,8 @@
 %p
-  Hello #{@email}!
-- if @resource.try(:unconfirmed_email?)
+  Hello #{@birthday}!
+- if @resource.try(:unconfirmed_birthday?)
   %p
-    We're contacting you to notify you that your email is being changed to #{@resource.unconfirmed_email}.
+    We're contacting you to notify you that your birthday is being changed to #{@resource.unconfirmed_birthday}.
 - else
   %p
-    We're contacting you to notify you that your email has been changed to #{@resource.email}.
+    We're contacting you to notify you that your birthday has been changed to #{@resource.birthday}.

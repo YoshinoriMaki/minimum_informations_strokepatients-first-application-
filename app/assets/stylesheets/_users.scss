@@ -1,80 +1,101 @@
 .userdata {
-  overflow: scroll;
   width: 100vw;
   height: 100%;
-  background-color: whitesmoke;
+  overflow: scroll;
+  background-color: blanchedalmond;
   display: flex;
   flex-flow: column;
   justify-content: space-around;
   text-align: center;
 
   &__title {
-    background-color: forestgreen;
     font-size: 40px;
-    font: bold;
-    width: 20%;
-    height: 60px;
-    line-height: 60px;
-    margin: 10px auto;
-    border-radius: 10px 10px 10px 10px;
+   text-align: center;
+   padding-top: 20px;
+   padding: 8px 19px;
+   margin: 2em 20%;
+   color: #2c2c2f;
+   background: #cde4ff;
+   border-top: solid 5px #5989cf;
+   border-bottom: solid 5px #5989cf;
   }
 
   &__name-tag {
-    background-color: rosybrown;
     font-size: 40px;
-    width: 60%;
-    margin: 20px auto;
+   text-align: center;
+   padding-top: 20px;
+   padding: 8px 19px;
+   margin: 2em 20%;
+   color: #2c2c2f;
+   background: #cde4ff;
+   border-top: solid 5px #5989cf;
+   border-bottom: solid 5px #5989cf;
 
     &__data {
-     background-color: red;
      font-size: 40px;
      ;
    }
   }
 
   &__password-tag {
-    background-color: rosybrown;
     font-size: 40px;
-    width: 70%;
-    margin: 20px auto;
+   text-align: center;
+   padding-top: 20px;
+   padding: 8px 19px;
+   margin: 2em 20%;
+   color: #2c2c2f;
+   background: #cde4ff;
+   border-top: solid 5px #5989cf;
+   border-bottom: solid 5px #5989cf;
     &__data {
-      background-color: red;
       font-size: 40px;
     }
   }
 
   &__age-tag {
-    background-color: rosybrown;
     font-size: 40px;
-    width: 60%;
-    margin: 20px auto;
+   text-align: center;
+   padding-top: 20px;
+   padding: 8px 19px;
+   margin: 2em 20%;
+   color: #2c2c2f;
+   background: #cde4ff;
+   border-top: solid 5px #5989cf;
+   border-bottom: solid 5px #5989cf;
 
     &__data {
-      background-color: red;
       font-size: 40px;
     }
   }
 
   &__birthday-tag {
-    background-color: rosybrown;
     font-size: 40px;
-    width: 60%;
-    margin: 20px auto;
+   text-align: center;
+   padding-top: 20px;
+   padding: 8px 19px;
+   margin: 2em 20%;
+   color: #2c2c2f;
+   background: #cde4ff;
+   border-top: solid 5px #5989cf;
+   border-bottom: solid 5px #5989cf;
 
     &__data {
-      background-color: red;
       font-size: 40px;
     }
   }
 
   &__sex-tag {
-    background-color: rosybrown;
     font-size: 40px;
-    width: 60%;
-    margin: 20px auto;
+   text-align: center;
+   padding-top: 20px;
+   padding: 8px 19px;
+   margin: 2em 20%;
+   color: #2c2c2f;
+   background: #cde4ff;
+   border-top: solid 5px #5989cf;
+   border-bottom: solid 5px #5989cf;
 
     &__data {
-      background-color: red;
       font-size: 40px;
     }
   }

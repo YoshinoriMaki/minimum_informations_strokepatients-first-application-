@@ -18,6 +18,6 @@
     (パスワードを入力してください)
 
   .login-box__status
-    = link_to "＜初めての方（新規登録）＞", new_user_registratio_path(@user), method: :get, class: "login-box__status__first-time"
-    = link_to "＜２回目以降の方はこちら＞", show_user_path(@user), method: :new, class: "login-box__status__registered-before"
+    = link_to "＜初めての方（新規登録）＞", new_user_registration_path, method: :get, class: "login-box__status__first-time"
+    = link_to "＜２回目以降の方はこちら＞", user_session, method: :post, class: "login-box__status__registered-before"
      
